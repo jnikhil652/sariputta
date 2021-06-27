@@ -8,7 +8,7 @@ $user_data = array(
 );
 $this->load->view(WEBSITE . INCLUDE_FILE . 'header', $user_data);
 ?>
-
+<!--for commit-->
 <body id="bg">
 <div class="page-wraper">
     <div id="loading-area"></div>
