@@ -16,7 +16,7 @@
                             <h4 class="m-b15 ">Usefull Links</h4>
                             <div class="rdx-separator-outer"><div class="rdx-separator bg-white style-liner"></div></div>
                             <ul class="widget_getintuch">
-								<li><i class="fas fa-cog"></i> <a href="<?php echo base_url(); ?>">Home</a> </li>
+								<li><i class="fas fa-cog"></i> <a href="<?php echo base_url('/'); ?>">Home</a> </li>
 								<li><i class="fas fa-cog"></i> <a href="<?php echo base_url('our-services'); ?>">Our Services</a> </li>
 								<li><i class="fas fa-cog"></i> <a href="<?php echo base_url('our-collaborations'); ?>">Our Collaboration</a> </li>
 								<li><i class="fas fa-cog"></i> <a href="<?php echo base_url('contact-us'); ?>">Contact Us</a> </li>
