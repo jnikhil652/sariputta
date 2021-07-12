@@ -193,6 +193,19 @@ $this->load->view(WEBSITE . INCLUDE_FILE . 'header', $user_data);
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-4 col-sm-6 m-b10">
+                            <div class="ow-carousel-entry">
+                                <div class="ow-entry-media rdx-img-effect zoom-slow"><a href="https://bcmgroup.in/"><img
+                                                src="https://bcmgroup.in/wp-content/uploads/2020/08/bcm_main_dark_color.png" alt=""></a>
+                                </div>
+                                <div class="ow-entry-content2 p-a15">
+                                    <div class="ow-entry-title"><h4 class="m-tb0"><a href="https://bcmgroup.in/">BCM Group</a></h4></div>
+                                    <div class="ow-entry-text">
+                                        <p>BCM Group is a top Hr Service provider and was incorporated in 2009 with the aim of providing the most suited professionals to companies. We deeply understand our client requirements across all functional areas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>

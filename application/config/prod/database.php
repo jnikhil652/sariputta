@@ -76,10 +76,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
     'dsn' => '',
-    'hostname' => '',
-    'username' => '',
-    'password' => '',
-    'database' => '',
+    'hostname' => 'sariputtaedtech.co.in',
+    'username' => 'saripcz7_nikhil',
+    'password' => 'Jnikhil652@',
+    'database' => 'saripcz7_db',
     'dbdriver' => 'mysqli',
     'dbprefix' => '',
     'pconnect' => FALSE,
