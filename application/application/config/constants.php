@@ -95,7 +95,7 @@ define('INCLUDE_FILE', 'include'.DS);
 
 // base url definition
 define('SITE_NAME', 'Sariputta');
-define('BASE_URL', 'http://www.sariputtaedutech.co.in/');
+define('BASE_URL', 'http://dev.sariputtaedutech.co.in/');
 define('TABLE_PREFIX', 'sp_');
 define('JWT_SECRET', 'abhgAGVNJabdj2576___1234WFbasf3450997687');
 
