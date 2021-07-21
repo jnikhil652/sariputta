@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 $autoload['config'] = array('jwt');
 /*
@@ -59,7 +59,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array('email', 'session','form_validation');
+$autoload['libraries'] = array('email', 'session', 'form_validation', 'database');
 
 /*
 | -------------------------------------------------------------------
