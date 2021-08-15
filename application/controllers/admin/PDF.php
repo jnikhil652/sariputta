@@ -1,10 +1,12 @@
 <?php
+
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class ManagementController extends CI_Controller
+class PDF extends MY_Controller
 {
+
     public function index()
     {
-        $this->load->view(WEBSITE . 'management');
+        $this->load->view(ADMIN . 'pdf');
     }
 }

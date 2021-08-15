@@ -26,6 +26,8 @@ $route['IndianAbacus'] = WEBSITE . 'HigherEducationController/IndianAbacus';
 $route['privacy'] = WEBSITE . 'HigherEducationController/privacy';
 $route['terms'] = WEBSITE . 'HigherEducationController/terms';
 
+// Nikhil
+$route['romania-form'] = WEBSITE . 'Form';
 
 $route['404_override'] = WEBSITE . 'LoginController/Errors404';
 $route['translate_uri_dashes'] = FALSE;
@@ -41,3 +43,13 @@ $route['our-collaborations'] = WEBSITE . 'OurCollaborationsController/ourCollabo
 $route['contact-us'] = WEBSITE . 'ContactUsController/contactUs';
 $route['send-contact-email'] = WEBSITE . 'ContactUsController/sendContactMail';
 $route['send-enquiry-email'] = WEBSITE . 'ContactUsController/sendEnquiryMail';
+
+$route['admin'] = ADMIN . 'Admin';
+$route['admin/pdf-Creator'] = ADMIN . 'PDF';
+$route['admin/login'] = ADMIN . 'Login';
+$route['admin/Romania'] = ADMIN . 'Romania';
+
+
+
+// 
+// 

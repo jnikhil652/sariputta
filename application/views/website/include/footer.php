@@ -8,8 +8,8 @@
                             <div class="rdx-separator-outer">
                                 <div class="rdx-separator bg-white style-liner"></div>
                             </div>
-                            <div class="col">
-                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfTbM6c2FMK4kICCIFf5bDYcktiXb36D67krf88B_fTur6QBg/viewform?embedded=true" width="580" height="450" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                            <div>
+                                <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfTbM6c2FMK4kICCIFf5bDYcktiXb36D67krf88B_fTur6QBg/viewform?embedded=true" width="580" height="450" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
                             </div>
                         </div>
                     </div>

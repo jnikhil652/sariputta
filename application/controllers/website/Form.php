@@ -1,10 +1,10 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class ManagementController extends CI_Controller
+class Form extends CI_Controller
 {
     public function index()
     {
-        $this->load->view(WEBSITE . 'management');
+        $this->load->view(WEBSITE . 'form');
     }
 }
