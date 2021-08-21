@@ -28,6 +28,8 @@ $route['terms'] = WEBSITE . 'HigherEducationController/terms';
 
 // Nikhil
 $route['romania-form'] = WEBSITE . 'Form';
+$route['roma-form-submit'] = WEBSITE . 'Form/romaForm';
+$route['roma-form-position'] = WEBSITE . 'Form/romaniaPosition';
 
 $route['404_override'] = WEBSITE . 'LoginController/Errors404';
 $route['translate_uri_dashes'] = FALSE;

@@ -17,11 +17,18 @@ $page = array(
         <!-- Topnav -->
         <?php $this->load->view(ADMIN . INCLUDE_FILE . 'navbar'); ?>
         <div class="container">
-            <h1>Hii</h1>
+            <div class="row mt-3">
+                <div class="col-sm-12">
+                    <a href="javascript:void(0)" class="btn btn-danger" id="romaAddPosition">Add Position</a>
+                </div>
+            </div>
+            <div class="row">
+
+            </div>
         </div>
         <?php $this->load->view(ADMIN . INCLUDE_FILE . 'footer'); ?>
     </div>
-
+    <script src="<?= base_url() ?>/assets/js/admin/roma.js?v=1.0.0"></script>
     <!-- Argon Scripts -->
     <!-- Core -->
 </body>
