@@ -28,9 +28,19 @@ function romaAddPopup() {
 				contentType: false,
 				dataType: "JSON",
 				success: function (response) {
-					bootbox.alert({
+					bootbox.prompt({
 						message: response.msg,
-						callback: function () {
+						buttons: {
+							confirm: {
+								label: "Submit",
+								className: "btn-success",
+							},
+							cancel: {
+								label: "Canel",
+								className: "btn-danger",
+							},
+						},
+						callback: function (result) {
 							window.location.href = baseUrl + "admin/Romania";
 						},
 					});

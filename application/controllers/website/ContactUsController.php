@@ -1,13 +1,11 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
-class ContactUsController extends MY_Controller
-{
-    public function contactUs()
-    {
+class ContactUsController extends MY_Controller {
+    public function contactUs() {
         $this->load->view(WEBSITE . 'contact-us');
     }
-    
+
     public function sendContactMail() {
         $postData = $this->input->post();
         $this->form_validation->set_rules('name', 'Full name', 'required');
@@ -24,9 +22,9 @@ class ContactUsController extends MY_Controller
             $to      = TO_EMAIL;
             $subject = "Contact Us: " . $postData['name'];
             $message = '<strong>Name : </strong>' . $postData["name"] . '<br>' .
-                    '<strong>Phone : </strong>' . $postData["phone"] . '<br>' .
-                    '<strong>Email : </strong>' . $postData["email"] . '<br>' .
-                    '<strong>Message : </strong>' . $postData["message"] . '<br>';
+                '<strong>Phone : </strong>' . $postData["phone"] . '<br>' .
+                '<strong>Email : </strong>' . $postData["email"] . '<br>' .
+                '<strong>Message : </strong>' . $postData["message"] . '<br>';
 
             if ($this->sendEmail($to, $subject, $message)) {
                 $result = array(
@@ -59,10 +57,10 @@ class ContactUsController extends MY_Controller
             $to      = TO_EMAIL;
             $subject = "Enquiry: " . $postData['name'];
             $message = '<strong>Name : </strong>' . $postData["name"] . '<br>' .
-                    '<strong>Phone : </strong>' . $postData["phone"] . '<br>' .
-                    '<strong>Email : </strong>' . $postData["email"] . '<br>' .
-                    '<strong>Message : </strong>' . $postData["message"] . '<br>';
-            
+                '<strong>Phone : </strong>' . $postData["phone"] . '<br>' .
+                '<strong>Email : </strong>' . $postData["email"] . '<br>' .
+                '<strong>Message : </strong>' . $postData["message"] . '<br>';
+
             if ($this->sendEmail($to, $subject, $message)) {
                 $result = array(
                     'success' => true,
@@ -76,5 +74,13 @@ class ContactUsController extends MY_Controller
             }
         }
         echo json_encode($result);
+    }
+    public function contactForm() {
+        $postData = $this->input->post();
+        if ($this->db->insert($postData)) {
+            return "data inserted";
+        } else {
+            return $this->db->db_error;
+        }
     }
 }

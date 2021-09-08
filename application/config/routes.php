@@ -25,6 +25,7 @@ $route['career'] = WEBSITE . 'HigherEducationController/career';
 $route['IndianAbacus'] = WEBSITE . 'HigherEducationController/IndianAbacus';
 $route['privacy'] = WEBSITE . 'HigherEducationController/privacy';
 $route['terms'] = WEBSITE . 'HigherEducationController/terms';
+$route['Contact-us-form'] = WEBSITE . 'ContactUsController/contactForm';
 
 // Nikhil
 $route['romania-form'] = WEBSITE . 'Form';

@@ -8,6 +8,41 @@
                             <div class="rdx-separator-outer">
                                 <div class="rdx-separator bg-white style-liner"></div>
                             </div>
+                            <div id="enquiryDetails" style="">
+                                <form role="form">
+                                    <div class="enquiry-form">
+                                        <div class="row item">
+                                            <div class="col-md-12">
+                                                <label for="name">Name</label>
+                                                <span class="form-field"><input type="text" name="name" value="" size="40" class="form-control" aria-required="true" aria-invalid="false" placeholder="Name"></span>
+                                            </div>
+                                        </div>
+                                        <div class="row item">
+                                            <div class="col-md-12">
+                                                <label for="email">Email</label>
+                                                <span class="form-field"><input type="email" name="email" value="" size="40" class="form-control" aria-required="true" aria-invalid="false" placeholder="Email"></span>
+                                            </div>
+                                        </div>
+                                        <div class="row item">
+                                            <div class="col-md-12">
+                                                <label for="number">Phone Number</label>
+                                                <span class="form-field"><input type="text" name="phone" value="" size="40" maxlength="10" class="form-control" aria-required="true" aria-invalid="false" placeholder="Number"></span>
+                                            </div>
+                                        </div>
+                                        <div class="row item">
+                                            <div class="col-md-12">
+                                                <label for="message">Message</label>
+                                                <span class="form-field"><textarea name="message" cols="40" rows="3" class="form-control" aria-required="true" aria-invalid="false" placeholder="Your Queries"></textarea></span>
+                                            </div>
+                                        </div>
+                                        <div class="row sube">
+                                            <div class="col-xs-12 col-md-12 col-sm-12">
+                                                <input type="button" value="Submit" class="site-button" onclick="saveEnquiryUs(this);" data-dismiss="modal">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
                             <div>
                                 <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfTbM6c2FMK4kICCIFf5bDYcktiXb36D67krf88B_fTur6QBg/viewform?embedded=true" width="580" height="450" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
                             </div>

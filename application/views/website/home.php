@@ -323,33 +323,33 @@ $this->load->view(WEBSITE . INCLUDE_FILE . 'header', $user_data);
                                 </div>
 
                                 <div class="gallery-product col-md-3 filter events">
-                                    <img class="img-thumbnail img-fluid" src="<?php echo base_url(); ?>/assets/img/event_lm.jpg" alt="">
+                                    <img class="img-thumbnail img-fluid imageZoom" src="<?php echo base_url(); ?>/assets/img/event_lm.jpg" alt="">
                                 </div>
                                 <div class="gallery-product col-md-3 filter achivements">
-                                    <img class="img-thumbnail img-fluid" src="<?php echo base_url(); ?>/assets/img/gallery/achivement1.jpg" alt="">
+                                    <img class="img-thumbnail img-fluid imageZoom" src="<?php echo base_url(); ?>/assets/img/gallery/achivement1.jpg" alt="">
                                 </div>
                                 <div class="gallery-product col-md-3 filter achivements">
-                                    <img class="img-thumbnail img-fluid" src="<?php echo base_url(); ?>/assets/img/gallery/achivement2.jpg" alt="">
+                                    <img class="img-thumbnail img-fluid imageZoom" src="<?php echo base_url(); ?>/assets/img/gallery/achivement2.jpg" alt="">
                                 </div>
                                 <div class="gallery-product col-md-3 filter events">
-                                    <img class="img-thumbnail img-fluid" src="<?php echo base_url(); ?>/assets/img/gallery/event1.jpg" alt="">
+                                    <img class="img-thumbnail img-fluid imageZoom" src="<?php echo base_url(); ?>/assets/img/gallery/event1.jpg" alt="">
                                 </div>
                                 <div class="gallery-product col-md-3 filter events">
-                                    <img class="img-thumbnail img-fluid" src="<?php echo base_url(); ?>/assets/img/gallery/event2.jpg" alt="">
+                                    <img class="img-thumbnail img-fluid imageZoom" src="<?php echo base_url(); ?>/assets/img/gallery/event2.jpg" alt="">
                                 </div>
                                 <div class="gallery-product col-md-3 filter achivements">
-                                    <img class="img-thumbnail img-fluid" src="<?php echo base_url(); ?>/assets/img/gallery/achivement3.jpg" alt="">
+                                    <img class="img-thumbnail img-fluid imageZoom" src="<?php echo base_url(); ?>/assets/img/gallery/achivement3.jpg" alt="">
                                 </div>
 
 
                                 <div class="gallery-product col-md-3 filter events">
-                                    <img class="img-thumbnail img-fluid" src="<?php echo base_url(); ?>/assets/img/gallery/event3.jpg" alt="">
+                                    <img class="img-thumbnail img-fluid imageZoom" src="<?php echo base_url(); ?>/assets/img/gallery/event3.jpg" alt="">
                                 </div>
                                 <div class="gallery-product col-md-3 filter events">
-                                    <img class="img-thumbnail img-fluid" src="<?php echo base_url(); ?>/assets/img/gallery/event4.jpg" alt="">
+                                    <img class="img-thumbnail img-fluid imageZoom" src="<?php echo base_url(); ?>/assets/img/gallery/event4.jpg" alt="">
                                 </div>
                                 <div class="gallery-product col-md-3 filter events">
-                                    <img class="img-thumbnail img-fluid" src="<?php echo base_url(); ?>/assets/img/gallery/event5.jpg" alt="">
+                                    <img class="img-thumbnail img-fluid imageZoom" src="<?php echo base_url(); ?>/assets/img/gallery/event5.jpg" alt="">
                                 </div>
                                 <div class="gallery-product col-lg-3 col-md-3 col-sm-4 col-xs-6 filter videos" style="height: 201px">
                                     <div class="embed-responsive embed-responsive-16by9">
@@ -358,34 +358,34 @@ $this->load->view(WEBSITE . INCLUDE_FILE . 'header', $user_data);
                                     </div>
                                 </div>
                                 <div class="gallery-product col-md-3 filter videos">
-                                    <img class="img-thumbnail img-fluid" src="<?php echo base_url(); ?>/assets/img/promotions/Sariputta7.jpeg" alt="addmission">
+                                    <img class="img-thumbnail img-fluid imageZoom" src="<?php echo base_url(); ?>/assets/img/promotions/Sariputta7.jpeg" alt="addmission">
                                 </div>
                                 <div class="gallery-product col-md-3 filter videos">
-                                    <img class="img-thumbnail img-fluid" src="<?php echo base_url(); ?>/assets/img/promotions/Sariputta5.jpeg" alt="mbbs">
+                                    <img class="img-thumbnail img-fluid imageZoom" src="<?php echo base_url(); ?>/assets/img/promotions/Sariputta5.jpeg" alt="mbbs">
                                 </div>
                                 <div class="gallery-product col-md-3 filter videos">
-                                    <img class="img-thumbnail img-fluid" src="<?php echo base_url(); ?>/assets/img/promotions/Sariputta2.jpeg" alt="paramedical">
+                                    <img class="img-thumbnail img-fluid imageZoom" src="<?php echo base_url(); ?>/assets/img/promotions/Sariputta2.jpeg" alt="paramedical">
                                 </div>
                                 <div class="gallery-product col-md-3 filter achivements">
-                                    <img class="img-thumbnail img-fluid" src="<?php echo base_url(); ?>/assets/img/gallery/achivement4.jpeg" alt="">
+                                    <img class="img-thumbnail img-fluid imageZoom" src="<?php echo base_url(); ?>/assets/img/gallery/achivement4.jpeg" alt="">
                                 </div>
 
                                 <div class="gallery-product col-md-3 filter videos">
-                                    <img class="img-thumbnail img-fluid" src="<?php echo base_url(); ?>/assets/img/promotions/Sariputta3.jpeg" alt="mba">
+                                    <img class="img-thumbnail img-fluid imageZoom" src="<?php echo base_url(); ?>/assets/img/promotions/Sariputta3.jpeg" alt="mba">
                                 </div>
 
                                 <div class="gallery-product col-md-3 filter videos">
-                                    <img class="img-thumbnail img-fluid" src="<?php echo base_url(); ?>/assets/img/promotions/Sariputta1.jpeg" alt="abroad">
+                                    <img class="img-thumbnail img-fluid imageZoom" src="<?php echo base_url(); ?>/assets/img/promotions/Sariputta1.jpeg" alt="abroad">
                                 </div>
 
 
 
                                 <div class="gallery-product col-md-3 filter videos" style="height: 371px">
-                                    <img class="img-thumbnail img-fluid" src="<?php echo base_url(); ?>/assets/img/promotions/Sariputta4.jpeg" alt="diet">
+                                    <img class="img-thumbnail img-fluid imageZoom" src="<?php echo base_url(); ?>/assets/img/promotions/Sariputta4.jpeg" alt="diet">
                                 </div>
 
                                 <div class="gallery-product col-md-3 filter videos" style="height: 371px">
-                                    <img class="img-thumbnail img-fluid" src="<?php echo base_url(); ?>/assets/img/promotions/Sariputta6.jpeg" alt="dmlt">
+                                    <img class="img-thumbnail img-fluid imageZoom" src="<?php echo base_url(); ?>/assets/img/promotions/Sariputta6.jpeg" alt="dmlt">
                                 </div>
                                 <div class="gallery-product col-md-3 filter videos" style="height: 371px">
                                     <iframe width="" height="371" src="https://www.youtube.com/embed/4U0QX2Cv9x0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
