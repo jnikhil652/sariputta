@@ -9,7 +9,7 @@
                                 <div class="rdx-separator bg-white style-liner"></div>
                             </div>
                             <div id="enquiryDetails" style="">
-                                <form role="form">
+                                <!-- <form role="form">
                                     <div class="enquiry-form">
                                         <div class="row item">
                                             <div class="col-md-12">
@@ -41,10 +41,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </form>
+                                </form> -->
                             </div>
                             <div>
-                                <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfTbM6c2FMK4kICCIFf5bDYcktiXb36D67krf88B_fTur6QBg/viewform?embedded=true" width="580" height="450" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfTbM6c2FMK4kICCIFf5bDYcktiXb36D67krf88B_fTur6QBg/viewform?embedded=true" width="580" height="450" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                             </div>
                         </div>
                     </div>
