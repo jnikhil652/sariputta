@@ -72,7 +72,7 @@
                                 <div class="rdx-separator bg-white style-liner"></div>
                             </div>
                             <ul class="widget_getintuch">
-                                <li><i class="fas fa-map-marker"></i><strong class="text-white">address</strong>Flat no 1, Sukh Samrudhi Apt. Opp GKN Sintered Company, Kharalwadi, Pimpri, Pune 411018, India </li>
+                                <li><i class="fas fa-map-marker"></i><strong class="text-white">address</strong>53, Mahesh Nagar near Dr.D.Y.Patil Medical College, Pimpri, Pune 411018, India </li>
                                 <li><a href="tel:+917058870522"><i class="fas fa-phone"></i><strong class="text-white">phone</strong>+91 70588 70522</a></li>
                                 <li><a href="mailto:enquiry@sariputtaedutech.co.in"><i class="fas fa-envelope"></i><strong class="text-white">email</strong>enquiry@sariputtaedutech.co.in</a></li>
                             </ul>
