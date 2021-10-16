@@ -85,8 +85,7 @@ $this->load->view(WEBSITE . INCLUDE_FILE . 'header', $user_data);
                                         <div class="icon-bx-xs bg-primary"> <a href="#" class="icon-cell"><i class="fa fa-map-marker"></i></a> </div>
                                         <div class="icon-content">
                                             <h6 class="text-uppercase m-b0 rdx-tilte">Address</h6>
-                                            <p>Flat no 1, Sukh Samrudhi Apt. Opp GKN Sintered Company, Kharalwadi,<br>
-                                                Pimpri, Pune 411018, India</p>
+                                            <p>53, Mahesh Nagar near Dr.D.Y.Patil Medical College, Pimpri, Pune 411018, India</p>
                                         </div>
                                     </li>
                                     <li class="icon-bx-wraper left m-b40">
@@ -116,7 +115,7 @@ $this->load->view(WEBSITE . INCLUDE_FILE . 'header', $user_data);
                         <div class="col-md-12">
                             <!-- Map part start -->
                             <h4>Our Location</h4>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d945.1949784761774!2d73.8112391291528!3d18.62896637004967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9d30c90edd3%3A0x86055ed98e10ccc3!2sSariputta%20Edutech%20LLP!5e0!3m2!1sen!2sin!4v1607756203739!5m2!1sen!2sin" width="1150" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.8638799239066!2d73.81877481437026!3d18.62519127082851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9d30c90edd3%3A0x86055ed98e10ccc3!2sSariputta%20Edutech%20LLP!5e0!3m2!1sen!2sin!4v1634361546159!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
                             <!-- Map part END -->
                         </div>
