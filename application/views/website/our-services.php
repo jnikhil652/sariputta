@@ -284,11 +284,11 @@ $this->load->view(WEBSITE . INCLUDE_FILE . 'header', $user_data);
                             </div>
                             <div class="col-md-4 col-sm-6 m-b10" style="height:806px;">
                                 <div class="ow-carousel-entry">
-                                    <div class="ow-entry-media rdx-img-effect zoom-slow"><a href="#"><img src="<?php echo base_url(); ?>/assets/img/expertron.png" alt=""></a>
+                                    <div class="ow-entry-media rdx-img-effect zoom-slow"><a href="https://www.expertrons.com/?ref_id=CP582" target="_blank"><img src="<?php echo base_url(); ?>/assets/img/expertron.png" alt=""></a>
                                     </div>
                                     <div class="ow-entry-content2 p-a15">
                                         <div class="ow-entry-title">
-                                            <h4 class="m-tb0"><a href="#">Expertron</a>
+                                            <h4 class="m-tb0"><a href="https://www.expertrons.com/?ref_id=CP582" target="_blank">Expertron</a>
                                             </h4>
                                         </div>
                                         <div class="ow-entry-text">
